@@ -25,3 +25,6 @@ except Exception as error: #Bloque except, que maneja las excepciones, o los err
 
 finally: #Bloque finally que se ejecuta siempre
     conexion.close()
+    
+#LO IMPORTANTE A DESTACAR EN TODO ESTO, ES QUE CUANDO EMPLEAMOS LA SENTENCIA DE TIPO WITH, AUTOMÁTICAMENTE SE HACE
+#COMMIT Y ROLLBACK Y TERMINA SIENDO INNECESARIO HACERLO EXPLÍCITAMENTE
